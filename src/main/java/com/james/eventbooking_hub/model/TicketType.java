@@ -1,4 +1,4 @@
-package com.decagon.eventbookingsq16.model;
+package com.james.eventbooking_hub.model;
 import jakarta.persistence.Entity;
 import jakarta.persistence.ManyToOne;
 import lombok.AllArgsConstructor;

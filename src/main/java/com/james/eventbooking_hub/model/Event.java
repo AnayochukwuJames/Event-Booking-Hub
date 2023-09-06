@@ -1,9 +1,11 @@
-package com.decagon.eventbookingsq16.model;
+package com.james.eventbooking_hub.model;
+
 import jakarta.persistence.Entity;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
+
 import java.util.Date;
 @Data
 @AllArgsConstructor

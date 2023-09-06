@@ -1,4 +1,4 @@
-package com.decagon.eventbookingsq16.service;
+package com.james.eventbooking_hub.service;
 
 public class UserService {
 }

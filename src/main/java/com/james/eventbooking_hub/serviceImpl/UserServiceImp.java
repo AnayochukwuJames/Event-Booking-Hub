@@ -1,4 +1,4 @@
-package com.decagon.eventbookingsq16.serviceImpl;
+package com.james.eventbooking_hub.serviceImpl;
 
 public class UserServiceImp {
 }

@@ -1,4 +1,4 @@
-package com.decagon.eventbookingsq16.configuration;
+package com.james.eventbooking_hub.configuration;
 
 public class WebConfiguration {
 }

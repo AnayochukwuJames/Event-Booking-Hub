@@ -1,4 +1,4 @@
-package com.decagon.eventbookingsq16.repository;
+package com.james.eventbooking_hub.repository;
 
 public class UserRepository {
 

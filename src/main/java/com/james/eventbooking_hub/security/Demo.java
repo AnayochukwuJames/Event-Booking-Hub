@@ -1,4 +1,4 @@
-package com.decagon.eventbookingsq16.security;
+package com.james.eventbooking_hub.security;
 
 public class Demo {
 }

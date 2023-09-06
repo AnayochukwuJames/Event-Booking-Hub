@@ -1,4 +1,4 @@
-package com.decagon.eventbookingsq16.validation;
+package com.james.eventbooking_hub.validation;
 
 public class EmailValidation {
 }

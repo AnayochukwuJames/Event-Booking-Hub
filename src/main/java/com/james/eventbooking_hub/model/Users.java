@@ -1,9 +1,13 @@
-package com.decagon.eventbookingsq16.model;
-import jakarta.persistence.*;
+package com.james.eventbooking_hub.model;
+
+import jakarta.persistence.Column;
+import jakarta.persistence.Entity;
+import jakarta.persistence.Table;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
+
 import java.util.Date;
 @Data
 @AllArgsConstructor
@@ -11,7 +15,7 @@ import java.util.Date;
 @Entity
 @Table(name = "users")
 @Builder
-public class User extends BaseEntity{
+public class Users extends BaseEntity{
     @Column(nullable = false)
     private String firstName;
     @Column(nullable = false)

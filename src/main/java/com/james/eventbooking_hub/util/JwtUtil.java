@@ -1,4 +1,4 @@
-package com.decagon.eventbookingsq16.util;
+package com.james.eventbooking_hub.util;
 
 public class JwtUtil {
 

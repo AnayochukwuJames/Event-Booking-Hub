@@ -1,4 +1,4 @@
-package com.decagon.eventbookingsq16.dto;
+package com.james.eventbooking_hub.dto;
 
 public class UserDto {
 

@@ -1,4 +1,4 @@
-package com.decagon.eventbookingsq16.model;
+package com.james.eventbooking_hub.model;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.JoinColumn;
@@ -16,6 +16,6 @@ import lombok.NoArgsConstructor;
 public class PasswordReset extends VerificationBaseEntity{
     @ManyToOne
     @JoinColumn(name = "user_id")
-    private User user;
+    private Users user;
 
 }

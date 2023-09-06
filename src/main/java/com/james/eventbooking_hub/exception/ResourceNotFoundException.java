@@ -1,4 +1,4 @@
-package com.decagon.eventbookingsq16.exception;
+package com.james.eventbooking_hub.exception;
 
 public class ResourceNotFoundException {
 }
