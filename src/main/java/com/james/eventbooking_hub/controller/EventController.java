@@ -2,22 +2,22 @@ package com.james.eventbooking_hub.controller;
 
 import com.james.eventbooking_hub.dto.dto.EventDTO;
 import com.james.eventbooking_hub.service.EventService;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
 @RequestMapping("/events")
 public class EventController {
+   public EventService eventService;
 
-    @Autowired
-    private EventService eventService;
+    @GetMapping("/view/{eventId}")
+    public ResponseEntity<EventDTO> viewEvent(@PathVariable Long eventId) {
 
-    @GetMapping("/view/event/{id}")
-    public ResponseEntity<EventDTO> viewEvent(@PathVariable Long id) {
-        return new ResponseEntity<>(eventService.viewEvent(id), HttpStatus.OK);
+        EventDTO eventDto = eventService.viewEvent(eventId).getBody();
+        if (eventDto != null) {
+            return ResponseEntity.ok(eventDto);
+        } else {
+            return ResponseEntity.notFound().build();
+        }
     }
-
-
 }

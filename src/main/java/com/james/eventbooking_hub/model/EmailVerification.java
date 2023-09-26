@@ -16,5 +16,5 @@ import lombok.NoArgsConstructor;
 public class EmailVerification extends VerificationBaseEntity {
     @OneToOne
     @JoinColumn(name = "user_id")
-    private Users user;
+    private User user;
 }

@@ -5,6 +5,7 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
+import java.time.LocalDateTime;
 import java.util.Date;
 import java.util.List;
 
@@ -21,9 +22,13 @@ public class EventDTO {
     private String organizer;
     private int availableTicket;
     private int ticketSold;
-    private int revenueGenerated;
-    private List<Ticket> ticketsInfo;
+    private double revenueGenerated;
     private Date startDateTime;
     private Date endDateTime;
+    private LocalDateTime createdAt;
+    private LocalDateTime updatedAt;
+    private boolean published;
+
+
 
 }
